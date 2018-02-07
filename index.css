@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body, html {
+  height: 100%;
+}
+
+#header {
+  background-color: red;
+}
+
+#container {
+  width: 100%;
+  position: relative;
+}
+
+#contents {
+  background-color: yellow;
+  min-height: calc(100vh - 100px);
+}
+
+#footer {
+  width: 100%;
+  height: 100px;
+  background-color: green;
+}
+
+
